@@ -1,0 +1,278 @@
+.main-container{
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+nav {
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    justify-content:space-between;
+    font-family:monospace;
+    height: 20px;
+    border-bottom:1px solid black;
+    transition-in
+
+}
+.inspired{
+    text-align: center;
+}
+
+.personal{
+    
+    display: flex;
+    gap:10px
+    
+}
+.personal1:hover {
+    color:rgba(151, 151, 151, 0.746) ;
+    cursor: pointer;
+}
+.personal2:hover {
+    color:rgba(151, 151, 151, 0.746)  ;
+    cursor: pointer;
+}
+.personal3:hover {
+    color:rgba(151, 151, 151, 0.746)  ;
+    cursor: pointer;
+}
+.personal4:hover {
+    color:rgba(151, 151, 151, 0.746)  ;
+    cursor: pointer;
+}
+
+
+header {
+    text-align: center;
+    font-family:DotGothic16;
+    gap: 48px;
+}
+.one {
+    height: 30vh;
+}
+.one:hover{
+    cursor: pointer;
+    height:29vh
+}
+main {
+    gap: 48px;
+    padding-top: 200px;
+    padding-bottom: 96px;
+    text-align: center;
+}
+
+.two{
+    height: 30vh;
+    align-items: center;
+
+
+}
+.two:hover {
+    cursor:pointer;
+    height: 29vh;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.container2 ul {
+    list-style-type: none;
+    /* display: flex; */
+}
+.container2{
+    display: flex;
+}
+
+.three {
+    height:15vh ;
+    gap: 700px;
+}
+
+.collage1 {
+    display: flex;
+    justify-content: space-between;
+}
+.collage2 {
+    display: flex;
+    justify-content:flex-end;
+   
+}
+.collage3 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  
+}
+.pic1 {
+    height: 40vh;
+}
+.pic2 {
+    height:30vh ;
+    /* align-content: left; */
+    padding-left: 20px;
+}
+.pic3 {
+    height: 30vh;
+}
+.pic4 {
+    height: 30vh;
+}
+.pic5 {
+    height: 30vh;
+}
+.pic6 {
+    height: 30vh;
+}
+.another {
+    padding-top: 100px;
+    display: flex;
+    justify-content:space-between;
+}
+.can {
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+.hmm {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 20vw;
+    height: vh;
+    text-align: center;
+
+}
+.class{
+    border-left:  px solid black;
+}
+.okay{
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+.experience {
+    display: flex;
+    
+}
+.experience1 {
+    padding-right: 44px;
+}
+.exp {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.exp2 {
+    padding-top: 20px;
+}
+
+.exp1 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.exp3 {
+    padding-top: 20px;
+}
+.contact:hover{
+    background-color:rgb(217, 211, 211);
+}
+.profiles{
+    display: flex;
+    gap: 10px;
+}
+.profile2 {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 20vw;
+    height: vh;
+    text-align: center;
+    
+}
+.profile3 {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 20vw;
+    height: vh;
+    text-align: center;   
+}
+.profile4 {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 20vw;
+    height: vh;
+    text-align: center;   
+}
+.profile5 {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 20vw;
+    height: vh;
+    text-align: center;   
+}
+.ha{
+    display: inline;
+}
+.testimonalsss{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 20vh;
+    
+}
+
+.text{
+   
+    text-align: center;
+    font-family: "DotGothic16", serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+.footer {
+    /* border-top: 1px solid black; */
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+.profiless{
+    padding: 5%;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.boxesss{
+    display:flex;
+    gap:16px;
+    overflow-x: 16px;
+    padding: 0 5%;
+}
+.card {
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 16px;
+    min-width: 280px;
+    flex: 0 0 auto;
+}
+p{
+    width: 180px;
+    padding-left: 16px;
+    border-left: 1px solid black;
+    font-size: 1rem;
+}
+.persondetails{
+    display: flex;
+    gap:12px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+h2{
+    /* font-size: rem;
+    color :white; */
+}
+h4{
+    font-size:0.875rem;
+}
